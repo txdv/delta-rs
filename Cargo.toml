@@ -26,7 +26,7 @@ debug = true
 debug = "line-tables-only"
 
 [workspace.dependencies]
-delta_kernel = { version = "=0.6.1", features = ["default-engine-rustls"] }
+delta_kernel = { git = "https://github.com/txdv/delta-kernel-rs", branch = "version_0_6_1_strum_0_27_1", features = ["default-engine-rustls"] }
 #delta_kernel = { path = "../delta-kernel-rs/kernel", features = ["sync-engine"]  }
 
 # arrow
